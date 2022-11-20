@@ -20,7 +20,7 @@ export function Post(props) {
         <p>Fala galera</p>
         <p>Acabei de subir mais um projeto no meu portifólio. Siga o link abaixo pra acompanhar</p>
         <p><a href="">hltech.dev</a></p>
-        <p><a href="">#novoprojeto #nlw #rocketseat</a></p>
+        <p><a href="">#novoprojeto{' '}#nlw{' '}#rocketseat</a></p>
 
       </div>
 

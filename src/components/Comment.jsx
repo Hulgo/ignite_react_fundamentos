@@ -14,7 +14,7 @@ export function Comment(props) {
               <time title="21 de Novembro às 11:19h" dateTime="2022-11-21 11:19:00">Cerca de 1h atrás</time>
             </div>
             <button title="Deletar comentário">
-              <Trash size={20} />
+              <Trash size={24} />
             </button>
           </header>
           <p>Comentario aleatório</p> 

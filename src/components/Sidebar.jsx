@@ -4,6 +4,7 @@ import styles from './Sidebar.module.css';
 
 import coverImage from '../assets/coverImage.jpeg';
 import avatar from '../assets/avatar.jpeg';
+import { Avatar } from './Avatar';
 
 export function Sidebar(props) {
 
@@ -12,7 +13,7 @@ export function Sidebar(props) {
       <img src={coverImage} className={styles.cover}/>
       
       <div className={styles.profile}>
-        <img src={avatar} className={styles.avatar}/>
+        <Avatar src={avatar} />
         <strong>Nome Usuário</strong>
         <spam>Cargo Usuário</spam>
       </div>
